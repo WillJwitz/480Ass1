@@ -1736,7 +1736,7 @@ GameObject:
   - component: {fileID: 1709590163}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2180,7 +2180,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   speed: 10
+  jumpForce: 5
   countText: {fileID: 721394408}
+  winTextObject: {fileID: 940185303}
 --- !u!114 &1896802703
 MonoBehaviour:
   m_ObjectHideFlags: 0
